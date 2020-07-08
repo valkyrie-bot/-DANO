@@ -1,0 +1,152 @@
+@font-face{font-family:'NotoSans-Medium';
+src: url("font/NotoSans-Medium.ttf") format("truetype")}
+
+
+
+*{padding: 0; margin: 0}
+ul{list-style: none}
+body{overflow-x: hidden; font-family: NotoSans-Medium;}
+a{text-decoration: none}
+.menu_left>li{width: 81.82px; height: 84px; text-align: center; line-height: 84px;}
+.menu_left{width: 600px; float: right; }
+        .menu_left a{color: #333}
+        .menu_left>li{width: 82px; height: 20px; float: left; text-align: center;
+        position: relative}
+        .submenu {position: absolute;top: 49px; background-color: rgba(0,0,0,0.1); opacity: 0; transition: all 0.5s}
+        .submenu>li{width: 81.81px; padding: 2px 0 2pa 0;}
+        .menu_left>li:hover .submenu{opacity: 1}
+        .submenu>li:hover {background-color: lightskyblue}
+        .menu_left a:hover{color: #fff }
+        .menu_left a:focus{color: red}
+.space {clear: both}
+.inner{width: 1280px; margin: 0 auto}
+.header{width: 100%; height: 132px}
+.top_header{width: 100%; height: 47px; border-bottom: 1px solid #d8d9d8}
+.sns{padding-top: 5px; float: left}
+.login{float: right;padding-top: 13px}
+.login>ul>li:nth-child(1){float: left}
+.login>ul>li:nth-child(2){float: right; padding-left: 28px}
+.bottom_header{width:100%;height: 85px; line-height: 85px; text-align: center;position: relative; font-size: 15px}
+.menu_left{float: left; width: 372px;}
+.menu_left>li{float:left; width: 22%; padding: 0 2%}
+.menu_left>li>a{text-decoration: none; color: #000}
+.menu_left>li:first-child{padding: 0}
+.menu_left>li:last-child{padding: 0}
+.logo{position: absolute; width: 212px; top: 15%; left: 15%; right: 15%; margin: 0 auto}
+.menu_right{float: right}
+.menu_right>.side>li{float: left;}
+.menu_right>.side>li:nth-child(2){padding-left: 30px}
+.mainimg{width: 100%; height: 636px; background-image: url(../img/main_img_bg.jpg); background-size: cover}
+.main_text{float: left;padding-top: 120px; padding-left: 96px}
+.main_text>p:nth-child(1){font-size: 10px; padding-bottom: 40px}
+.main_text>h1{font-size: 50px; padding-bottom: 28px}
+.main_text>.bottom{font-size: 25px; }
+.main_pic>img{width: 600px; height: 600spx; float: right}
+.box1>.inner>h3{text-align: center; font-weight: bold; font-size: 31px; padding-top: 30px; padding-bottom: 30px}
+.box1_list>.slide:nth-child(1){padding-top: 0px}
+.box1_list>.slide{float: left; padding-right: 60px; padding-left: 50px}
+.box1_list>.slide{padding-bottom: 65px}
+.banner{width: 100%; height: 340px; background-color: #c4f5d6; margin-top: 160px; color: #335a4d}
+.banner>.inner:after{content: "";display: block;clear: both}
+.banner>.inner{height: 340px; background-image: url(../img/fc184f3b-62c3-4683-9916-f918f661e637.jpg); background-position: -320px center; position: relative}
+.banner>.inner>div{float: left; position: absolute; left: 15%; top: 30%}
+.banner>.inner>div>h3{font-size: 33px; margin-bottom: 32px}
+.banner>.inner>div>p{font-size: 30px}
+.banner>.inner>ul{width:430px;  float: right; position: absolute; right:10%; top: 38%; font-size: 18spx}
+.banner>.inner>ul>li{width: 20%; text-align: center; float: left}
+.banner>.inner>ul>li>p{padding-top: 14px}
+/* 미니슬라이드 css */
+#banner_wrap {background-color: #191919; background-repeat: no-repeat; background-size: cover; 
+             position: relative; color: #fff;}
+#banner_wrap h4 {padding-top: 40px; font-weight: bold; text-align: center; font-size: 35pt}
+#slide_banner {text-align: center; line-height: }
+#slide_banner img{width:100%}
+.bx-viewport {}
+#prevBtn {position: absolute; left: 0; top: calc(50% - 17px)}
+#nextBtn {position: absolute; right: 0; top:  calc(50% - 17px)}
+.box2 .bx-wrapper {margin:0 auto}
+.box2{ background-color: #191919;padding-bottom:50px}
+
+    /* 미니슬라이드 css 끄읏*/
+/*
+.box2{width: 100%; height: 850px; background-color: #191919; background-repeat: no-repeat; background-size: cover; position: relative}
+.box2>.box2slider{width : 1280px; height:850px;margin: 0 auto; position: relative; color: #fff;}
+.box2>h4{color: #fff; text-align: center;font-size: 30px; padding: 30px}
+.box2slider>.slide_list{width: 969px; position: absolute; top: 15%; left: 10%; right: 10%; margin: 0 auto}
+.box2slider>.slide_list:after{content: ""; display: block; clear: both}
+.box2slider>.slide_list>.slide2{width: 33.3%; float: left; letter-spacing: -1px; }
+.box2slider>.slide_list>.slide2>img{width: 80%; margin: 0 10%}
+.box2slider>.slide_list>.slide2>h5{font-size: 22px; font-weight: bold; padding: 40px 10% 24px 10%}
+.box2slider>.slide_list>.slide2>p{font-size: 14px; color: #454547; padding: 0 10% 0 10%}
+.box2slider>.btn_prev{position: absolute; top: 35%; left:0}
+.box2slider>.btn_next{position: absolute; top: 35%; right:0}
+.slide2 img {transform: scale(1); transition: all 0.8s;overflow: hidden}
+.slide2:hover img{transform: scale(1.2); overflow: hidden} */
+.box3{text-align: center;margin-top: 60px}
+.box3>.box3_title>h2{font-size: 40px; color: #010002; }
+.box3>.box3_title>p{font-size: 14px; color: #020018; margin: 30px 0 110px}
+.box3>ul{width: 60%; margin: 0 auto; font-size: 20px; font-weight: bold; padding-bottom: 50px}
+.box3>ul{width: 60%; margin: 0 auto; font-size: 20px; font-weight: bold}
+.box3>ul:after{content: ""; display: block; clear: both}
+.box3>ul>li{width: 25%; float: left}
+.box3>ul>li>p{margin-top: 36px}
+.banner2{width: 100%; height: 275px; background-image: url(../img/banner2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center}
+.info{width: 1280px; height: 80px;line-height: 80px; margin: 0 auto; font-size: 14px; color: #000100}
+.info>h2{width: 136px; float: left; font-weight: bold}
+.info>p{float: left}
+.info>ul{float: right}
+.info:after{content: ""; display: block; clear: both}
+.info>ul>li{float: left}
+.info>ul>li .date{color: #979996}
+.info>ul>li .more{width: 110px; text-decoration: under
+; text-align: center}
+.info>ul:after{content: ""; display: block; clear: both}
+#footer{width: 100%; height: 295px; background-color: #383736}
+.top_footer{height: 73px; line-height: 73px; border-bottom: 1px solid 3303133; font-size: 12px; color: #5e605d}
+.top_footer>.inner>ul>li{float: left; padding-right: 32px}
+.top_footer>.inner>ul>li:first-child{padding-left: 350px}
+.bottom_footer{color: #999999; margin-top: ; font-size: 8px;}
+.bottom_footer>.inner:after{content: ""; display: inline-block; clear: both}
+.bottom_footer>.inner>.f_logo{padding-right: 54px; }
+.bottom_footer>.inner>.f_logo, .copyright{float: left}
+.bottom_footer>.inner>.copyright>ul>li
+{position: relative; padding-left: 115px}
+.bottom_footer>.inner>.copyright>p{padding-left: 115px}
+
+/* 서브-1 */
+
+.sub_mainimg {height: 634px; background-image: url(../img/sub_mainimg.jpg); background-repeat: no-repeat; background-size: cover}
+.sub_mainimg {text-align: center; padding-top: 130px; color: #787878}
+.sub_mainimg h1{font-size: 51pt;}
+.sub_mainimg h3{font-size: 25px;}
+.sub_mainimg p{font-weight: bold; font-size: 16pt}
+.sub_content{padding-top: 70px}
+.orange_point{width: 42px; height: 5px; background-color: #f78b1a}
+.grid{padding-top: 26px}
+.grid p{padding-top: 16px;color: #a1a1a1; font-size: 15.31pt; letter-spacing: -2.5px}
+.sub_icon_btn{width: 210px; height: 55px; background-color: #00643d;text-align: center; line-height: 55px; margin: 0 auto;}
+.sub_icon_btn p {color: #fff}
+.sub_content_icon{text-align: center; margin: 0 auto; margin: 150px 0}
+.sub_content_icon>.inner>.sub_icon:nth-child(1){float: left; padding-left: 328px;}
+
+/* 서브-2 */
+.sub2_mainimg{width: 1920px; height: 640px;background-image: url(../img/sub2_mainimg.jpg)}
+.sub2_content {height: 1060px}
+.sub2_content h1{font-size: 45pt; color: #5a9960; text-align: center; padding-top: 60px; padding-bottom: 55px}
+.sub2_content h3{font-size: 25px}
+.grid2 {width: 1280px; height: 575px; border: 1px solid #000; margin: 0 auto;}
+.frog img{width: 92px; height: 80px}
+.frog h2{font-size: 30pt;}
+.frog p{font-size: 18pt}
+.frog_left{margin: 0 auto}
+.frog_left>.frog{float: left;width: 33.3%; text-align: center; padding: 55px 0 100px 0}
+.frog_right{margin: 0
+auto}
+.frog_right>.frog{float: left; width: 33.3%; text-align: center}
+.sub2_icon_btn{width: 210px; height: 55px; background-color: #00643d;text-align: center; line-height: 55px; margin: 0 auto;margin: 50px auto}
+.sub2_icon_btn p {color: #fff}
+/* 미니슬라이드 */
+img{border:none 0;vertical-align:top;}
+#banner_wrap{position:relative;margin:0 auto;}
+#slide_banner {text-align: center}
+#slide_banner img{width:100%}
