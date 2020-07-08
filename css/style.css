@@ -1304,3 +1304,27 @@ display: none;
 
 /* 비디오 */
 .video {width: 770px; height: 500px;}
+
+/* 모바일 메뉴 */
+.nav__menu_m {list-style: none;
+}
+.mobile__menu {display: none;}
+.nav__menu_m li {width: 75px; height: 75px;
+	margin: 0 0 0 0;
+    padding: 0 0 0 0;
+	border : 0;
+	display: inline-block;
+padding-right: 30px;}
+	
+	.example {float: right;}
+	.footer__copyright__text {float: right;}
+
+
+/* 미디어 */
+
+@media all and (max-width:576px) {
+	.footer__copyright__text {float: right; text-align:center;}
+	.mobile__menu {display: block; text-align: center;}
+	.roundabout-holder { padding: 0; height: 10em;
+		 width: 30%; margin: 0 auto; list-style: none; }
+}
